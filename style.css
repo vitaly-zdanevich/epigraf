@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Epigraf';
+    src: url('fonts/epigrafe-2-2/svg/font.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+input {
+    font-family: Epigraf;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+#ruler-horizontal {
+    display: flex;
+    margin-left: 18px;
+}
+#ruler-horizontal span {
+    width: 4.42mm;/* 5 mm in reality - because of border */
+    border-right: 1px black solid;
+    margin-top: 22px;
+}
+#ruler-horizontal span:nth-child(even) {
+    border-right: 1px lightgray solid;
+    height: 7mm;
+    margin-top: 9px;
+}
+
+#ruler-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 29px;
+    margin-top: 2px;
+}
+#ruler-vertical span {
+    height: 4.42mm;
+    border-bottom: 1px black solid;
+    margin-left: 5px;
+}
+#ruler-vertical span:nth-child(odd) {
+    border-bottom: 1px lightgray solid;
+    margin-left: 16px;
+}
+
+textarea {
+    font-size: 10cm;
+    font-family: Epigraf;
+    border: none;
+	position: absolute;
+	top: 1cm;
+	left: 1cm;
+}
