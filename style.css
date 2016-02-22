@@ -18,7 +18,7 @@ body {
     margin-left: 15px;
 }
 #ruler-horizontal span {
-    width: 14.73mm;/* 5 mm in reality - because of border */
+    width: 55.66px; /* 1 cm in printed - we can not use here "1cm" because this will print another width :( */
     border-right: 1px black solid;
     margin-top: 4px;
     line-height: 1;
@@ -31,13 +31,9 @@ body {
     margin-top: 2px;
 }
 #ruler-vertical span {
-    height: 4.42mm;
+    height: 55.7px;
     border-bottom: 1px black solid;
     margin-left: 5px;
-}
-#ruler-vertical span:nth-child(odd) {
-    border-bottom: 1px lightgray solid;
-    margin-left: 16px;
 }
 
 textarea {
