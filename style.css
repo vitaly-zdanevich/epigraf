@@ -18,9 +18,11 @@ body {
     margin-left: 15px;
 }
 #ruler-horizontal span {
-    width: 55.66px; /* 1 cm in printed - we can not use here "1cm" because this will print another width :( */
-    border-right: 1px black solid;
-    margin-top: 4px;
+    width: 51.6px;
+    /* 1 cm in printed - we can not use here "1cm" because this will print another width :( */
+
+    border-left: 1px black solid;
+    margin-left: 4px;
     line-height: 1;
     height: 25px;
 }
@@ -39,8 +41,8 @@ body {
 textarea {
     font-size: 4cm;
     font-family: Epigraf;
-    border: none;
     position: absolute;
-    top: 1cm;
-    left: 1cm;
+    top: 56px;
+    left: 56px;
+    height: 1000px;
 }
