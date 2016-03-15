@@ -18,7 +18,7 @@ body {
     margin-left: 15px;
 }
 #ruler-horizontal span {
-    width: 51.5px;
+    width: 51.9px;
     /* 1 cm in printed - we can not use here "1cm" because this will print another width :( */
     border-left: 1px black solid;
     margin-left: 4px;
@@ -32,7 +32,7 @@ body {
     margin-top: 2px;
 }
 #ruler-vertical span {
-    height: 55.7px;
+    height: 55.9px;
     border-bottom: 1px black solid;
     margin-left: 5px;
 }
