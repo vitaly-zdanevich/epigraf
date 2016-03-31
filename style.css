@@ -19,7 +19,7 @@ body {
 }
 #ruler-horizontal span {
     /* 1 cm in printed - we can not use here "1cm" because this will print another width :( */
-    min-width: 52.9px;
+    min-width: 51.8px;
     border-left: 1px black solid;
     margin-left: 4px;
     line-height: 1;
