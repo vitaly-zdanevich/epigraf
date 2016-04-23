@@ -38,10 +38,11 @@ body {
 }
 
 textarea {
-    font-size: 160px;
+    font-size: 353px;
     font-family: Epigraf;
     position: absolute;
     top: 45px;
     left: 56px;
     height: 1000px;
+    line-height: 251px;
 }
